@@ -3,7 +3,7 @@ from pyzbar.pyzbar import decode
 from PIL import Image
 
 myqr = qrcode.make("gajananvyawahare610@gmail.com")
-myqr1 = qrcode.make("https://github.com/GajananVyawahare/qr-scanner.git")
+myqr1 = qrcode.make("https://github.com/GajananVyawahare?tab=repositories")
 
 
 myqr.save("myqr.png",scale = 8)
